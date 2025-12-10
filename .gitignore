@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific (exclude documents not in repo)
+*.pptx
+*.docx
+*.doc
+
+# Data (if needed to exclude large files, uncomment)
+# *.csv
+
+# Temporary files
+*.tmp
+*.log
+

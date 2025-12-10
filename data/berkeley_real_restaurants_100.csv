@@ -1,0 +1,101 @@
+restaurant_id,name,city,cuisine,price_tier,price_level,latitude,longitude,x,y,rating_5star
+1,Chez Panisse,Berkeley,Californian,$$$,3,37.865232,-122.308874,0.02,2.83,3.99
+2,Comal,Berkeley,Mexican,$$,2,37.886535,-122.261137,7.707,6.523,4.02
+3,Great China,Berkeley,Chinese,$$,2,37.883413,-122.288713,3.267,5.981,3.99
+4,Fish & Bird Sousaku Izakaya,Berkeley,Japanese,$$,2,37.903612,-122.273436,5.727,9.482,4.48
+5,La Marcha Tapas Bar,Berkeley,Spanish,$$,2,37.85895,-122.303275,0.922,1.742,3.75
+6,Vik's Chaat,Berkeley,Indian,$,1,37.874722,-122.275671,5.367,4.475,4.24
+7,Iyasare,Berkeley,Japanese,$$$,3,37.874436,-122.254417,8.79,4.426,4.25
+8,Bette's Oceanview Diner,Berkeley,Diner/Breakfast,$$,2,37.869407,-122.303223,0.93,3.554,3.82
+9,Skates On The Bay,Berkeley,Seafood,$$$,3,37.85097,-122.263883,7.265,0.359,4.04
+10,Fava,Berkeley,Mediterranean,$$,2,37.853722,-122.280763,4.547,0.836,3.79
+11,Funky Elephant,Berkeley,Thai,$$,2,37.901763,-122.300803,1.32,9.162,3.86
+12,Berkeley Social Club,Berkeley,Korean-American,$$,2,37.87302,-122.278468,4.917,4.18,3.7
+13,The Butcher's Son,Berkeley,Vegan,$$,2,37.870906,-122.264399,7.182,3.814,4.17
+14,Rose Pizzeria,Berkeley,Pizza,$$,2,37.893347,-122.305663,0.537,7.703,4.18
+15,Middle East Market,Berkeley,Persian,$,1,37.893728,-122.254989,8.697,7.769,4.01
+16,Sliver Pizzeria,Berkeley,Pizza,$,1,37.8718,-122.293156,2.551,3.969,3.81
+17,Angeline's Louisiana Kitchen,Berkeley,Cajun/Creole,$$,2,37.891916,-122.290572,2.967,7.455,4.22
+18,Standard Fare,Berkeley,Californian,$$,2,37.87566,-122.262589,7.474,4.638,4.02
+19,Jupiter,Berkeley,Pizza/Brewpub,$$,2,37.866901,-122.266035,6.919,3.12,4.23
+20,Triple Rock Brewery,Berkeley,Brewpub,$$,2,37.883627,-122.278199,4.96,6.019,4.19
+21,Gather,Berkeley,Californian,$$,2,37.878987,-122.286342,3.649,5.214,3.97
+22,Julia's Restaurant,Berkeley,Californian,$$,2,37.879985,-122.269652,6.336,5.387,4.01
+23,Henry's,Berkeley,Gastropub,$$,2,37.87396,-122.293783,2.45,4.343,3.57
+24,Revival Bar+Kitchen,Berkeley,Californian,$$,2,37.858669,-122.293328,2.524,1.693,3.9
+25,84 Viet Berkeley,Berkeley,Vietnamese,$$,2,37.890284,-122.299473,1.534,7.172,3.81
+26,All Day Kitchens,Berkeley,Multi-Concept,$$,2,37.887529,-122.28583,3.731,6.695,3.89
+27,Almare Gelato Italiano,Berkeley,Dessert/Gelato,$,1,37.877809,-122.253478,8.941,5.01,3.96
+28,Amausaan Uji Matcha,Berkeley,Dessert/Matcha,$,1,37.878183,-122.300773,1.325,5.075,4.5
+29,Anja's,Berkeley,Cafe,$,1,37.898856,-122.299961,1.456,8.658,3.9
+30,Arinell Pizza,Berkeley,Pizza,$,1,37.899377,-122.297272,1.889,8.748,3.65
+31,Asha Tea House,Berkeley,Tea/Boba,$,1,37.885442,-122.303833,0.832,6.333,3.36
+32,Bag O' Crab,Berkeley,Seafood,$$,2,37.871904,-122.292825,2.605,3.987,4.22
+33,Bangkok Noodles & Thai BBQ,Berkeley,Thai,$$,2,37.877105,-122.255689,8.585,4.888,4.09
+34,Bao Dim To-Go,Berkeley,Chinese/Dim Sum,$,1,37.851952,-122.261123,7.71,0.529,3.52
+35,Bench Cafe Patisserie,Berkeley,Bakery/Cafe,$$,2,37.851473,-122.281792,4.381,0.446,4.13
+36,Berkeley Espresso,Berkeley,Cafe,$,1,37.873494,-122.256922,8.386,4.262,3.52
+37,Beta Lounge,Berkeley,Bar/Small Plates,$$,2,37.896149,-122.259265,8.009,8.189,3.59
+38,Blue Bottle Cafe,Berkeley,Cafe,$$,2,37.894836,-122.307239,0.284,7.961,3.76
+39,Bobby G's Pizzeria,Berkeley,Pizza,$$,2,37.890896,-122.29065,2.955,7.278,4.17
+40,Bubble Tea Sharetime,Berkeley,Tea/Boba,$,1,37.87796,-122.301352,1.232,5.036,4.04
+41,Cafe Etoile,Berkeley,Cafe,$,1,37.860149,-122.291428,2.83,1.95,3.82
+42,Cafe Rio,Berkeley,Sandwiches/Salads,$,1,37.904856,-122.257532,8.288,9.698,4.04
+43,Cafe Tibet,Berkeley,Tibetan,$$,2,37.884829,-122.29584,2.119,6.227,3.75
+44,Cal's Fried Chicken & Burgers,Berkeley,Burgers/Chicken,$,1,37.903812,-122.308327,0.108,9.517,3.65
+45,Cancun Sabor Mexicano,Berkeley,Mexican,$,1,37.866374,-122.268494,6.523,3.028,3.94
+46,Chocolaterie,Berkeley,Dessert/Chocolate,$$,2,37.851353,-122.295667,2.147,0.425,4.04
+47,Cholita Linda,Berkeley,Latin American,$$,2,37.885211,-122.249459,9.588,6.293,3.97
+48,Comal Next Door,Berkeley,Mexican,$$,2,37.87602,-122.298333,1.718,4.7,4.43
+49,Cornerstone Craft Beer & Live Music,Berkeley,Burgers/Bar,$$,2,37.862898,-122.30218,1.098,2.426,4.5
+50,Crave Subs,Berkeley,Sandwiches,$,1,37.889564,-122.301386,1.226,7.047,3.73
+51,Crepes A-Go-Go,Berkeley,Creperie,$,1,37.891147,-122.255327,8.643,7.322,3.39
+52,Daryoush,Berkeley,Persian,$$,2,37.881444,-122.284464,3.951,5.64,4.19
+53,Dessert N Spice,Berkeley,Dessert,$,1,37.877133,-122.249981,9.504,4.893,3.49
+54,E-Z Stop Deli,Berkeley,Deli,$,1,37.854861,-122.254578,8.764,1.033,3.43
+55,Earthbar,Berkeley,Juice/Smoothies,$$,2,37.861608,-122.262404,7.503,2.202,3.67
+56,East Bay Spice Company,Berkeley,Indian/Bar,$$,2,37.885262,-122.276361,5.256,6.302,4.06
+57,elaichi co.,Berkeley,Cafe,$$,2,37.864452,-122.297912,1.786,2.695,3.81
+58,Endless Summer Sweets,Berkeley,Dessert,$,1,37.858702,-122.265283,7.04,1.699,3.72
+59,Eureka!,Berkeley,Burgers/American,$$,2,37.865251,-122.289703,3.107,2.834,3.93
+60,Friendly Market,Berkeley,Deli/Market,$,1,37.876909,-122.295581,2.161,4.854,3.9
+61,Gadani,Berkeley,Pakistani/Indian,$$,2,37.868217,-122.251861,9.201,3.348,4.04
+62,Gold Bean Cafe,Berkeley,Cafe,$,1,37.863087,-122.285378,3.804,2.459,3.63
+63,Happy Lemon,Berkeley,Tea/Boba,$,1,37.853085,-122.305339,0.589,0.725,3.68
+64,Heroic Italian,Berkeley,Italian,$$,2,37.891507,-122.287242,3.504,7.384,4.12
+65,Hui Lau Shan,Berkeley,Dessert/Chinese,$,1,37.884778,-122.266277,6.88,6.218,3.39
+66,Ike's Love & Sandwiches,Berkeley,Sandwiches,$$,2,37.901631,-122.268064,6.592,9.139,4.3
+67,IMM Thai Street Food,Berkeley,Thai,$$,2,37.886972,-122.294586,2.321,6.598,3.88
+68,Kiraku,Berkeley,Japanese/Izakaya,$$,2,37.891565,-122.289459,3.147,7.394,4.28
+69,Impression of Lanzhou,Berkeley,Chinese/Noodles,$$,2,37.871788,-122.287151,3.518,3.967,4.23
+70,Noodle Dynasty,Berkeley,Chinese/Noodles,$$,2,37.849356,-122.281826,4.376,0.079,4.32
+71,Farmhouse Kitchen Thai Cuisine,Berkeley,Thai,$$$,3,37.898214,-122.307726,0.205,8.547,4.16
+72,El Burro Picante,Berkeley,Mexican,$,1,37.87042,-122.263515,7.325,3.73,3.79
+73,Boichik Bagels,Berkeley,Bagels,$,1,37.851496,-122.259654,7.946,0.45,3.56
+74,Acme Bread,Berkeley,Bakery,$,1,37.849954,-122.305665,0.537,0.183,3.95
+75,Fournee Bakery,Berkeley,Bakery,$$,2,37.875481,-122.302898,0.983,4.607,3.98
+76,Sweet Adeline Bakeshop,Berkeley,Bakery,$,1,37.865412,-122.272564,5.867,2.862,3.63
+77,Masse's Pastries,Berkeley,Bakery,$$,2,37.903727,-122.29865,1.667,9.502,4.06
+78,Lavender Bakery & Cafe,Berkeley,Bakery/Cafe,$$,2,37.87407,-122.254658,8.751,4.362,3.65
+79,Starter Bakery,Berkeley,Bakery,$$,2,37.897186,-122.28655,3.615,8.369,3.87
+80,Oceanview Diner,Berkeley,Diner/Breakfast,$$,2,37.895942,-122.249875,9.521,8.153,3.99
+81,Cafe Strada,Berkeley,Cafe,$,1,37.857142,-122.274712,5.521,1.428,3.92
+82,Peet's Coffee (Vine St.),Berkeley,Cafe,$,1,37.86449,-122.29866,1.665,2.702,4.06
+83,Yali's Cafe,Berkeley,Cafe,$,1,37.863978,-122.295093,2.239,2.613,3.54
+84,Caffe Mediterraneum,Berkeley,Cafe,$,1,37.858519,-122.262041,7.562,1.667,3.97
+85,RareTea,Berkeley,Tea/Boba,$,1,37.889914,-122.260595,7.795,7.108,4.09
+86,Teaspoon,Berkeley,Tea/Boba,$,1,37.867067,-122.301648,1.184,3.149,4.21
+87,Sharetea,Berkeley,Tea/Boba,$,1,37.880975,-122.27274,5.839,5.559,3.6
+88,Pink Cloud Tea & More,Berkeley,Tea/Boba,$,1,37.860147,-122.281358,4.451,1.949,3.86
+89,Plentea,Berkeley,Tea/Boba,$,1,37.859886,-122.27647,5.238,1.904,3.86
+90,Presotea,Berkeley,Tea/Boba,$,1,37.89773,-122.250148,9.477,8.463,4.3
+91,Purple Kow,Berkeley,Tea/Boba,$,1,37.85774,-122.307646,0.218,1.532,4.14
+92,Sweetheart Cafe,Berkeley,Tea/Boba,$,1,37.862846,-122.289075,3.209,2.417,3.19
+93,Chicha San Chen,Berkeley,Tea/Boba,$,1,37.880151,-122.296557,2.004,5.416,3.33
+94,Boba Ninja,Berkeley,Tea/Boba,$,1,37.8632,-122.264105,7.229,2.478,3.86
+95,Roast & Toast Cafe,Berkeley,Cafe,$,1,37.871379,-122.297824,1.8,3.896,4.1
+96,The Hidden Cafe,Berkeley,Cafe,$$,2,37.866212,-122.306457,0.409,3.0,3.66
+97,Jaffa Coffee Roasters,Berkeley,Cafe,$$,2,37.853516,-122.247469,9.908,0.8,4.09
+98,Milyar Cafe,Berkeley,Cafe,$$,2,37.85033,-122.294231,2.378,0.248,4.06
+99,Belmo Cafe,Berkeley,Cafe,$$,2,37.87165,-122.257415,8.307,3.943,3.84
+100,Rick & Ann's Restaurant,Berkeley,Breakfast/Brunch,$$,2,37.861145,-122.306433,0.413,2.122,4.13
