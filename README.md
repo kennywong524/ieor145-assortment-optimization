@@ -27,6 +27,8 @@ Our simulation environment models a capacity-constrained marketplace with 100 re
 ├── 145-groundtruth-generation.ipynb  # Ground truth transaction data generation
 ├── 145-featurized-MNL-rev.ipynb      # MNL pipeline with greedy optimization
 ├── 145-ml-pipeline.ipynb              # ML pipeline (Random Forest & XGBoost)
+├── randomforest.ipynb                 # Weighted Random Forest with price-based penalties
+├── xgb2.ipynb                          # Weighted XGBoost with price-based penalties
 ├── data/
 │   ├── berkeley_real_restaurants_100.csv
 │   └── groundtruth_transaction_data.csv
@@ -48,9 +50,22 @@ Our simulation environment models a capacity-constrained marketplace with 100 re
 - Optimization: Greedy revenue maximization (Top-K = 5)
 
 #### 2. Machine Learning Baselines
+
+**Standard ML Models** (`145-ml-pipeline.ipynb`):
 - **Random Forest**: Binary classification (purchase probability)
 - **XGBoost**: Gradient boosting with hyperparameter tuning
 - Optimization: Independent ranking heuristic (Score = P(buy) × Price)
+
+**Weighted ML Models** (Revenue-Optimized):
+- **Weighted Random Forest** (`randomforest.ipynb`): Random Forest with price-based sample weighting
+  - Uses sample weights proportional to `PriceBase^penalty_exponent` to bias learning toward higher-revenue items
+  - Tunes penalty exponent via grid search to maximize revenue on validation set
+  - Achieves improved revenue extraction compared to standard RF
+  
+- **Weighted XGBoost** (`xgb2.ipynb`): XGBoost with price-based sample weighting
+  - Similar price-based weighting approach with hyperparameter tuning
+  - Combines AUC optimization with revenue-focused sample weighting
+  - Balances predictive accuracy and revenue maximization
 
 ### Evaluation Metrics
 - **Average Revenue per User**: Primary monetization metric
@@ -87,10 +102,22 @@ matplotlib
    - Evaluates against ground truth oracle
 
 3. **ML Pipeline** (`145-ml-pipeline.ipynb`):
-   - Trains Random Forest/XGBoost classifiers
+   - Trains standard Random Forest/XGBoost classifiers
    - Generates purchase probability predictions
    - Optimizes assortments using independent ranking
    - Compares performance with MNL baseline
+
+4. **Weighted Random Forest** (`randomforest.ipynb`):
+   - Implements price-based sample weighting for revenue optimization
+   - Trains baseline RF (no penalty) and penalized RF models with varying penalty exponents
+   - Selects best model based on revenue performance on tuning set
+   - Evaluates hit rate, utility, and revenue gap metrics
+
+5. **Weighted XGBoost** (`xgb2.ipynb`):
+   - Implements price-based sample weighting with XGBoost
+   - Performs hyperparameter tuning (max_depth, n_estimators, learning_rate, etc.)
+   - Tunes penalty exponent via grid search to optimize validation AUC
+   - Evaluates comprehensive performance metrics including profile-level breakdowns
 
 ### Data Requirements
 - Ensure `data/` folder is in the same directory as notebooks
