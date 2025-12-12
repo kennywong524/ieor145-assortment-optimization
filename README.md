@@ -28,7 +28,7 @@ Our simulation environment models a capacity-constrained marketplace with 100 re
 ├── 145-featurized-MNL-rev.ipynb      # MNL pipeline with greedy optimization
 ├── 145-ml-pipeline.ipynb              # ML pipeline (Random Forest & XGBoost)
 ├── randomforest.ipynb                 # Weighted Random Forest with price-based penalties
-├── xgb2.ipynb                          # Weighted XGBoost with price-based penalties
+├── xgboost.ipynb                       # Weighted XGBoost with price-based penalties
 ├── data/
 │   ├── berkeley_real_restaurants_100.csv
 │   └── groundtruth_transaction_data.csv
@@ -62,7 +62,7 @@ Our simulation environment models a capacity-constrained marketplace with 100 re
   - Tunes penalty exponent via grid search to maximize revenue on validation set
   - Achieves improved revenue extraction compared to standard RF
   
-- **Weighted XGBoost** (`xgb2.ipynb`): XGBoost with price-based sample weighting
+- **Weighted XGBoost** (`xgboost.ipynb`): XGBoost with price-based sample weighting
   - Similar price-based weighting approach with hyperparameter tuning
   - Combines AUC optimization with revenue-focused sample weighting
   - Balances predictive accuracy and revenue maximization
@@ -113,7 +113,7 @@ matplotlib
    - Selects best model based on revenue performance on tuning set
    - Evaluates hit rate, utility, and revenue gap metrics
 
-5. **Weighted XGBoost** (`xgb2.ipynb`):
+5. **Weighted XGBoost** (`xgboost.ipynb`):
    - Implements price-based sample weighting with XGBoost
    - Performs hyperparameter tuning (max_depth, n_estimators, learning_rate, etc.)
    - Tunes penalty exponent via grid search to optimize validation AUC
